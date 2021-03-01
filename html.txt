@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+
+<link rel="icon" href="images/favicon.ico">
+
+  <title>Adik's page</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="header__inner">
+          <h1>Adik's Page</h1>
+        <nav class="nav">
+          <a class="nav__link" href="#AboutMe">About me</a>
+          <a class="nav__link" href="#Education">Education</a>
+          <a class="nav__link" href="#Skills">Skills and hobbies</a>
+          <a class="nav__link" href="#Contact">Contact</a>
+        </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="intro">
+     <div class="container">
+       <div class="intro__inner">
+       <h1 class="intro__title">Welcome to my page</h1>
+       </div>
+     </div>
+    </div>
+
+
+  <div id="AboutMe">
+    <div class="container">
+      <table cellspacing='100'>
+        <tr>
+          <td>
+            <div class="text">
+            <h2>About me</h2>
+            <p>I'm a novice programmer. I chose the path of a programmer,
+              because I like programming. I also like to play the guitar.</p>
+          </div>
+        </td>
+        <td><div>
+          <img class="about-img" src="images/circle-cropped.png" alt="">
+        </div></td>
+
+        <td>
+          <div class="text">
+            <h2>Details</h2>
+            <p>
+              <strong>Name:</strong>
+              Kaskarauov Adilet Dauletkeldiuly
+            </p>
+
+            <p>
+              <strong>Age:</strong>
+              18
+            </p>
+
+            <p>
+              <strong>
+                Location:
+              </strong>
+              Nur-Sultan, Kazakhstan, Earth
+            </p>
+
+          </div>
+        </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+<div id="Education">
+  <div class="container">
+    <h1>Education</h1>
+    <hr>
+     <table cellspacing='40'>
+       <tr>
+         <td class="school">
+           <h2>#52 school-gymnasium</h2>
+
+           <br>
+           <br>
+
+           2009 - 2020
+         </td>
+         <td>I have a lot of good memories with this school. In the 7th grade, we started learning Pascal,
+           I will never forget these days. In the 9th grade, I started learning Visual Basic, a cool language,
+           simple, in this language I wrote my first calculator. After the 9th grade, I chose the physics and mathematics side.
+            At the end of the 11th grade, I started learning html.
+
+            <br>
+            <br>
+            <a class="school__link" href="https://52.astana-bilim.kz">#52 school-gymnasium</a>
+          </td>
+       </tr>
+
+       <tr>
+         <td class="AITU"><h2>Astana IT University</h2>
+
+         <br>
+         <br>
+
+         2020 - Current time
+         </td>
+
+         <td>AITU is a newly opened university. I went there because it is the only IT university in the Nur-Sultan.
+           There are many good teachers here. Cool university, but very far from my home
+           (I live in the micro-district Yugo-Vostok). I like this university.
+
+         <br>
+         <br>
+         <br>
+         <a class="school__link" href="https://astanait.edu.kz">Astana IT University</a>
+         </td>
+       </tr>
+     </table>
+  </div>
+</div>
+<br>
+<br>
+
+<div id="Skills">
+  <div class="container">
+     <h1>Skills</h1>
+     <hr>
+     <h2>Languages:</h2>
+     <ol>
+       <li><strong>Kazakh</strong> - Nattive speaker</li>
+       <li><strong>Russian</strong> - advanced</li>
+       <li><strong>English</strong> - average</li>
+       <li><strong>Japan</strong> - beginner</li>
+     </ol>
+
+
+     <br>
+
+     <br>
+
+    <br>
+    <h1>Hobbies</h1>
+    <hr>
+    <ol>
+      <li>Computer games:
+      <ul>
+        <li>FPS</li>
+        <li>Action-RPG</li>
+      </ul>
+      </li>
+      <li>Playing guitar (VIKTOR TSOI!!!)</li>
+      <li>Programming</li>
+    </ol>
+  </div>
+</div>
+
+<br>
+<br>
+<div id="Contact">
+  <div class="container">
+    <h1 class="Contacts">Contacts</h1>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <button type="button" name="button" class="btn"><a href="https://vk.com/loocay"><img src="https://img.icons8.com/color/48/000000/vk-circled.png"/> </a></button>
+    <button type="button" name="button" class="btn"> <a href="https://t.me/Loocay"><img src="https://img.icons8.com/color/48/000000/telegram-app--v1.png"/></a> </button>
+    <button type="button" name="button" class="btn"> <a href="https://www.instagram.com/the.loocay/"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a> </button>
+  </div>
+</div>
+
+</body>
+
+
+</html>
